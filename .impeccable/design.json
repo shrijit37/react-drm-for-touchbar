@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-21T00:00:00.000Z",
+  "title": "Design System: react-drm",
+  "extensions": {
+    "colorMeta": {
+      "background": { "role": "neutral", "displayName": "Void", "canonical": "oklch(0% 0 0)", "tonalRamp": ["#000000", "#0a0a0a", "#141414", "#1e1e1e", "#282828", "#323232", "#3c3c3c", "#464646"] },
+      "surface": { "role": "neutral", "displayName": "Iron", "canonical": "oklch(33% 0 0)", "tonalRamp": ["#1b1b1b", "#242424", "#2d2d2d", "#373737", "#404040", "#494949", "#525252", "#5c5c5c"] },
+      "surface-variant": { "role": "neutral", "displayName": "Rampart", "canonical": "oklch(39% 0 0)", "tonalRamp": ["#232323", "#2d2d2d", "#3a3a3a", "#474747", "#545454", "#616161", "#6e6e6e", "#7b7b7b"] },
+      "primary": { "role": "primary", "displayName": "Soft Accord Blue", "canonical": "oklch(76% 0.13 258)", "tonalRamp": ["#1d3d86", "#244ba1", "#2a59bd", "#5b8def", "#7ba4f2", "#9bbbf5", "#bbd2f8", "#dbe9fb"] },
+      "secondary": { "role": "secondary", "displayName": "Iron", "canonical": "oklch(33% 0 0)", "tonalRamp": ["#1b1b1b", "#242424", "#2d2d2d", "#373737", "#404040", "#494949", "#525252", "#5c5c5c"] },
+      "text-primary": { "role": "neutral", "displayName": "Ash Slate", "canonical": "oklch(82% 0 0)", "tonalRamp": ["#666666", "#7a7a7a", "#8e8e8e", "#a2a2a2", "#b6b6b6", "#cccccc", "#d9d9d9", "#e6e6e6"] },
+      "text-secondary": { "role": "neutral", "displayName": "Muted Slate", "canonical": "oklch(66% 0.02 245)", "tonalRamp": ["#4d5b70", "#5e6f86", "#70829d", "#94a3b8", "#a6b3c5", "#b8c3d2", "#cad3df", "#dce3ec"] },
+      "text-disabled": { "role": "neutral", "displayName": "Faded Slate", "canonical": "oklch(50% 0.02 247)", "tonalRamp": ["#38455c", "#43516b", "#4e5e7a", "#64748b", "#78869a", "#8b97a9", "#9fa9b8", "#b3bbc8"] },
+      "border": { "role": "neutral", "displayName": "Carbon Edge", "canonical": "oklch(13% 0 0)", "tonalRamp": ["#000000", "#0a0a0a", "#111111", "#171717", "#242424", "#333333", "#444444", "#555555"] },
+      "divider": { "role": "neutral", "displayName": "Slate Line", "canonical": "oklch(22% 0.02 248)", "tonalRamp": ["#0e1522", "#12182", "#161c26", "#1e293b", "#2b3850", "#3c4b64", "#505e76", "#65728a"] },
+      "success": { "role": "neutral", "displayName": "Spring Green", "canonical": "oklch(86% 0.18 150)", "tonalRamp": ["#1a5b3c", "#22804f", "#2aa663", "#4ade80", "#6ce895", "#8df2aa", "#b0f7c2", "#d4fbdd"] },
+      "warning": { "role": "neutral", "displayName": "Marigold", "canonical": "oklch(86% 0.17 95)", "tonalRamp": ["#8a6d1a", "#a97f1e", "#c79334", "#fde047", "#ffe966", "#fff088", "#fff6aa", "#fffad0"] },
+      "error": { "role": "neutral", "displayName": "Coral Red", "canonical": "oklch(76% 0.17 20)", "tonalRamp": ["#8e2b33", "#a83a43", "#c45059", "#f87171", "#fa8b8b", "#fca6a6", "#fdc3c3", "#fee0e0"] },
+      "info": { "role": "neutral", "displayName": "Sky Slate", "canonical": "oklch(79% 0.14 230)", "tonalRamp": ["#1e6f96", "#2585b2", "#3aa3ce", "#38bdf8", "#5cc9f9", "#88d8fb", "#b4e6fd", "#dbf3fe"] },
+      "gui-bg": { "role": "neutral", "displayName": "Deep Indigo", "canonical": "oklch(12% 0.015 260)", "tonalRamp": ["#07080b", "#0a0b0f", "#0d0f14", "#11141a", "#161a21", "#1c202a", "#232833", "#2b313d"] },
+      "gui-panel": { "role": "neutral", "displayName": "Iron Panel", "canonical": "oklch(15% 0.01 260)", "tonalRamp": ["#0b0d12", "#11141a", "#171a21", "#1d2029", "#242831", "#2c313c", "#353b47", "#3e4552"] },
+      "gui-panel-hi": { "role": "neutral", "displayName": "Panel-hi", "canonical": "oklch(18% 0.012 260)", "tonalRamp": ["#10131a", "#181c24", "#21262f", "#2a303a", "#343b46", "#3f4652", "#4a525f", "#565e6c"] },
+      "gui-border": { "role": "neutral", "displayName": "Hairline Edge", "canonical": "oklch(22% 0.012 250)", "tonalRamp": ["#151924", "#1c202b", "#232834", "#2a2f3b", "#343a47", "#3f4554", "#4b5161", "#575e6e"] },
+      "gui-text": { "role": "neutral", "displayName": "Paper White", "canonical": "oklch(95% 0.005 255)", "tonalRamp": ["#8a8f99", "#a5aab4", "#c0c4ce", "#eef0f3", "#f2f3f6", "#f6f7f8", "#fafafb", "#fefefe"] },
+      "gui-text-muted": { "role": "neutral", "displayName": "Muted Blue-Grey", "canonical": "oklch(60% 0.02 265)", "tonalRamp": ["#566071", "#676f80", "#79808f", "#939bad", "#a3aab9", "#b4b9c6", "#c5c9d4", "#d7dae1"] },
+      "gui-cyan": { "role": "primary", "displayName": "Aqua Cyan", "canonical": "oklch(85% 0.12 205)", "tonalRamp": ["#1d6d99", "#2584b8", "#3a9bd1", "#7dd3fc", "#9adffd", "#b6eafd", "#d2f4fe", "#effbff"] },
+      "gui-violet": { "role": "primary", "displayName": "Amethyst Violet", "canonical": "oklch(73% 0.16 295)", "tonalRamp": ["#6b4bc9", "#7c5fd6", "#8d78e4", "#a78bfa", "#bca5fb", "#d0bffc", "#e4d9fe", "#f8f3ff"] },
+      "gui-danger": { "role": "neutral", "displayName": "Danger Rose", "canonical": "oklch(78% 0.15 15)", "tonalRamp": ["#9e3b4c", "#b94658", "#d35366", "#fb7185", "#fc8d9d", "#fdaab5", "#fec7ce", "#ffe4e8"] },
+      "gui-ok": { "role": "neutral", "displayName": "Ok Green", "canonical": "oklch(86% 0.18 150)", "tonalRamp": ["#1a5b3c", "#22804f", "#2aa663", "#4ade80", "#6ce895", "#8df2aa", "#b0f7c2", "#d4fbdd"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The bar's one family carries every role; F-key/Esc labels at 700/24px are its loudest voice." },
+      "body": { "displayName": "Body", "purpose": "Module secondary text, slider readouts, launcher entries (~12-13.5px, 400)." },
+      "label": { "displayName": "Label", "purpose": "Compact widget labels - battery %, weather, caps-lock (~10-11px, 500-600)." }
+    },
+    "shadows": [
+      { "name": "glass-tint", "value": "rgba(23,26,33,0.55)", "purpose": "GUI translucent panel tint; depth is glass-over-gradient, never hard shadows." },
+      { "name": "glass-highlight", "value": "rgba(33,38,47,0.6)", "purpose": "Hovered/active glass panel tint." },
+      { "name": "halo-running", "value": "rgba(125,211,252,0.9)", "purpose": "Dock focused-app indicator pill." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.2, 0.7, 0.3, 1)", "purpose": "GUI state transitions (buttons, focus, hover)." },
+      { "name": "spring-bounce", "value": "tension 600, friction 8", "purpose": "Dock launch bounce / press glow - overshoots and rings (macOS/Plank feel)." },
+      { "name": "pulse-breathing", "value": "1100ms, reverse-repeat", "purpose": "Running-app halo breathing in sync across dock icons." },
+      { "name": "layer-in", "value": "350ms", "purpose": "Entering layer eases in (fade or slide)." },
+      { "name": "layer-out", "value": "200ms", "purpose": "Leaving layer fades/slides out." }
+    ],
+    "breakpoints": [
+      { "name": "standard-bar", "value": "2008px", "purpose": "Standard Touch Bar width." },
+      { "name": "wide-bar", "value": "2170px", "purpose": "Wide Touch Bar (no physical Esc)." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Function Key (bar)",
+      "kind": "button",
+      "refersTo": "btn-key",
+      "description": "The bar's core key: neutral Iron surface, 2px Carbon hairline, 10px radius, 700/24px Ash Slate label.",
+      "html": "<button class=\"ds-key\" title=\"F1\">F1</button>",
+      "css": ".ds-key { font-family: 'IosevkaTerm Nerd Font', sans-serif; background: #373737; color: #cccccc; border: 2px solid #171717; border-radius: 10px; font-size: 24px; font-weight: 700; flex: 1; display: flex; align-items: center; justify-content: center; padding: 0; transition: background 0.1s; } .ds-key:hover, .ds-key:active { background: #474747; }"
+    },
+    {
+      "name": "Esc Key (wide bar)",
+      "kind": "button",
+      "refersTo": "btn-key",
+      "description": "Fixed 110px Esc on wide bars (>=2170px), same key anatomy but lowercase label.",
+      "html": "<button class=\"ds-esc\">esc</button>",
+      "css": ".ds-esc { font-family: 'IosevkaTerm Nerd Font', sans-serif; background: #373737; color: #cccccc; border: 2px solid #171717; border-radius: 10px; width: 110px; font-size: 24px; font-weight: 700; display: flex; align-items: center; justify-content: center; } .ds-esc:active { background: #474747; }"
+    },
+    {
+      "name": "Dock Slot",
+      "kind": "nav",
+      "refersTo": "dock-icon",
+      "description": "A dock slot: 48px icon, 14px radius slot, running-app halo breathes behind, launch bounce overshoot.",
+      "html": "<button class=\"ds-dock\" title=\"Firefox\"><svg viewBox=\"0 0 24 24\" width=\"48\" height=\"48\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"5\" fill=\"#5b8def\"/></svg></button>",
+      "css": ".ds-dock { position: relative; width: 72px; height: 72px; border-radius: 14px; background: transparent; border: none; display: flex; align-items: center; justify-content: center; cursor: pointer; } .ds-dock::before { content: ''; position: absolute; inset: 6px; border-radius: 50%; background: rgba(125,211,252,0); transition: all 0.3s; z-index: 0; } .ds-dock:hover::before, .ds-dock:active::before { background: rgba(125,211,252,0.18); transform: scale(1.15); } .ds-dock svg { position: relative; z-index: 1; transition: transform 0.24s; } .ds-dock:active svg { transform: translateY(-6px); animation: ds-bounce 0.5s; } @keyframes ds-bounce { 0%{transform:translateY(0)} 30%{transform:translateY(-12px)} 60%{transform:translateY(-4px)} 100%{transform:translateY(0)} }"
+    },
+    {
+      "name": "Media Module / Card",
+      "kind": "card",
+      "refersTo": "card-module",
+      "description": "A content module on the bar: stepped Iron surface, 10px radius, 2px hairline - depth is tonal, no shadow.",
+      "html": "<div class=\"ds-module\"><span class=\"ds-module-title\">Now Playing</span><span class=\"ds-module-sub\">Track — Artist</span></div>",
+      "css": ".ds-module { font-family:'IosevkaTerm Nerd Font', sans-serif; background:#373737; border:2px solid #171717; border-radius:10px; padding:8px 10px; display:flex; flex-direction:column; gap:2px; color:#cccccc; } .ds-module-title { font-size:12px; font-weight:600; color:#cccccc; } .ds-module-sub { font-size:11px; font-weight:400; color:#94a3b8; }"
+    },
+    {
+      "name": "GUI Primary Button (config-gui/install-gui)",
+      "kind": "button",
+      "refersTo": "gui-button-primary",
+      "description": "The GUI's confident action: cyan-violet gradient block, 6px radius, 650-weight on Deep Indigo.",
+      "html": "<button class=\"ds-btn-primary\">DEPLOY</button>",
+      "css": ".ds-btn-primary { font-family: -apple-system, 'Segoe UI', 'Cantarell', 'Noto Sans', Roboto, sans-serif; background: linear-gradient(135deg, #7dd3fc, #a78bfa); color: #0b0f14; border: none; box-shadow: none; border-radius: 6px; padding: 9px 20px; font-size: 13.5px; font-weight: 650; cursor: pointer; transition: filter 0.15s cubic-bezier(0.2, 0.7, 0.3, 1); } .ds-btn-primary:hover { filter: brightness(1.12); } .ds-btn-primary:active { filter: brightness(0.95); } .ds-btn-primary:focus-visible { outline: 2px solid #7dd3fc; outline-offset: 2px; } .ds-btn-primary:disabled { filter: grayscale(0.8); opacity: 0.5; cursor: default; }"
+    },
+    {
+      "name": "GUI Glass Panel (config-gui sidebar)",
+      "kind": "card",
+      "refersTo": "gui-panel",
+      "description": "The GUI's signature surface: tinted glass + 18px backdrop blur over the ambient gradient, 10px radius.",
+      "html": "<aside class=\"ds-panel\"><header class=\"ds-panel-header\"><span class=\"ds-panel-dot\"></span>Config</header><nav class=\"ds-panel-nav\">Display</nav></aside>",
+      "css": ".ds-panel { font-family: -apple-system, 'Segoe UI', 'Cantarell', 'Noto Sans', Roboto, sans-serif; background: rgba(23,26,33,0.55); backdrop-filter: blur(18px); border: 1px solid #2a2f3b; border-radius: 10px; display: flex; flex-direction: column; overflow: hidden; color: #eef0f3; width: 240px; } .ds-panel-header { display: flex; align-items: center; gap: 10px; padding: 20px 18px 16px; font-size: 13.5px; font-weight: 700; letter-spacing: -0.01em; border-bottom: 1px solid #20242e; } .ds-panel-dot { width: 8px; height: 8px; border-radius: 3px; background: linear-gradient(135deg, #7dd3fc, #a78bfa); } .ds-panel-nav { padding: 8px 14px; font-size: 13px; color: #939bad; } .ds-panel-nav:hover { color: #eef0f3; }"
+    },
+    {
+      "name": "GUI Search Input (config-gui)",
+      "kind": "input",
+      "refersTo": "gui-input",
+      "description": "Near-black field, 1px hairline, 6px radius; focus shifts the border to Aqua Cyan.",
+      "html": "<label class=\"ds-field\"><input class=\"ds-input\" placeholder=\"Search config…\" /></label>",
+      "css": ".ds-field { display: block; } .ds-input { width: 100%; background: #0d0f14; border: 1px solid #2a2f3b; color: #eef0f3; border-radius: 6px; padding: 7px 10px; font-size: 12.5px; font-family: inherit; transition: border-color 0.15s cubic-bezier(0.2, 0.7, 0.3, 1); } .ds-input::placeholder { color: #5c6377; } .ds-input:focus-visible { outline: 2px solid #7dd3fc; outline-offset: 2px; border-color: #7dd3fc; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Slim Black Module",
+    "overview": "react-drm is a dense, dark, glass-and-token system that lives on two canvases: the physical Touch Bar (a 2008-2170px by ~60px DRM panel) and the desktop GUI shells (config-gui, install-gui) that configure it. On the bar, the identity is black glass over the machine: #000000 backgrounds, subtly graded #373737/#474747 module surfaces, a single crisp 2px hairline border, and one restrained blue (#5b8def) accent for interactivity. Every pixel is accounted for - the bar has almost no room, so the system buys legibility through contrast between a true-black field and stepped mid-dark surfaces, and buys motion through springs that overshoot (ring) like macOS.\n\nThe GUI shells are the bar's control room and share its DNA without pretending to be the hardware: a near-black indigo (#0d0f14) canvas with translucent glass panels (rgba(23,26,33,0.55) + blur(18px)) over faint cyan/violet ambient gradients, and a single bright cyan-to-violet accent gradient (#7dd3fc -> #a78bfa) reserved for primary action blocks and the active state. Both canvases speak the same grammar - dark module on darker field, hairline dividers, one bright accent, radius in the 6-14px band.\n\nThe system is fundamentally tonal, not shadowed: depth on the bar comes from layered mid-greys over black, and in the GUI from translucent tint + backdrop blur, never hard shadows. Text is a three-tier slate scale (#cccccc -> #94a3b8 -> #64748b on the bar; #eef0f3 -> #939bad -> #5c6377 in the GUI). Status is a single consistent traffic-light of semantic accents - success/warning/error/info - used identically across both worlds.",
+    "keyCharacteristics": [
+      "True-black hardware canvas with stepped mid-dark module surfaces - contrast through layering, not light.",
+      "One restrained primary accent per surface (#5b8def on the bar, cyan/violet gradient in the GUI).",
+      "Hairline 2px borders and dividers; radius band 6-14px, more for motion halos.",
+      "Depth is tonal/glass, never drop-shadow-driven.",
+      "Springs overshoot and ring (launch bounce, press glow); continuous values breathe in sync.",
+      "Text is a three-tier slate scale; status is one persistent traffic-light system.",
+      "Fixed safe-area insets (11px horizontal, 2px vertical) defend against pixel-shift clipping on the hardware panel."
+    ],
+    "rules": [
+      { "name": "The One-Accent Rule", "body": "Each surface carries exactly one voice of bright accent - the bar uses Soft Accord Blue alone, the GUI uses the cyan-to-violet gradient alone. Secondary and status colors never compete with it.", "section": "colors" },
+      { "name": "The One-Family Rule", "body": "On the bar, one typeface (Iosevka Term Nerd Font) carries every weight and role. Hierarchy is made by weight, size, and color - never by adding a second family.", "section": "typography" },
+      { "name": "The Glass-Over-Tint Rule", "body": "Where a surface needs to recede or host layered content, use translucent tint + blur over the ambient gradient (GUI), or a solid one-rung-lighter module fill (bar) - never a drop shadow to fake height.", "section": "elevation" },
+      { "name": "The 2px Hairline Rule", "body": "Any border on the bar is exactly 2px, colored border/divider. No heavier borders, no sharp 0px hairlines - the crisp edge is what separates interactive modules from the #000000 field.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do keep the bar's field pure #000000 and let modules step up one rung (#373737 -> #474747) for any elevation or press state.",
+      "Do use exactly one accent per surface - Soft Accord Blue on the bar, cyan-to-violet gradient in the GUI - and reserve it for interactive/live states.",
+      "Do respect the fixed safe areas (11px horizontal, 2px vertical) and the wide-bar Esc math (layout.tsx): the content never draws under the panel curve.",
+      "Do use spring overshoot for physical, weighted motion (launch bounce, press glow) and 1100ms-family continuous values for background breathe.",
+      "Do keep text on the three-tier slate scale (textPrimary/textSecondary/textDisabled), and status to the traffic-light set (success/warning/error/info), identically across bar and GUI.",
+      "Do use the 2px hairline (border) to separate interactive modules from the #000000 field, and the Glass-Over-Tint approach (translucent --glass + blur(18px)) over an ambient gradient for GUI depth."
+    ],
+    "donts": [
+      "Don't add drop shadows on the bar, or hard shadows in the GUI - depth is tonal/glass, not shadow-graphy.",
+      "Don't introduce a second typeface to the bar; Iosevka Term Nerd Font covers every role.",
+      "Don't invent a new accent or a new semantic status color beyond the traffic-light set - one accent and one status language, everywhere.",
+      "Don't wrap button press feedback in a slow fade; press feedback is a surfaceVariant color swap with a ~100ms flash, and scroll-passing must never light a key.",
+      "Don't use radius outside the 6-14px band for bounding surfaces, or apply the GUI gradient as a text/border treatment on the bar's #000000 keys."
+    ]
+  }
+}
